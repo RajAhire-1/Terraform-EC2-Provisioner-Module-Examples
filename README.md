@@ -3,6 +3,7 @@
 *A complete guide with screenshots and practical Terraform usage.*
 
 ---
+![](img/12.png)
 
 ## **Table of Contents**
 
