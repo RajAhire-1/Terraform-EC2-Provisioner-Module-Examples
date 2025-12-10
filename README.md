@@ -228,21 +228,7 @@ terraform destroy --auto-approve
 
 ---
 
-# **10. Important Notes (Highly Recommended)**
-
-* Use **correct AMI ID** for your region (`ap-south-1` etc.).
-* Ensure your Security Group allows:
-
-  * **SSH (22)** for remote-exec & file provisioner
-  * **HTTP (80)** if installing Nginx
-* Ensure the **EC2 key pair** exists in AWS and the matching `.pem` file path is correct.
-* Keep backend configuration **only in root module**, not inside `modules/`.
-* Do **not upload `.pem` to GitHub** — add it to `.gitignore`.
-* Use `associate_public_ip_address = true` when required.
-
----
-
-# **11. Conclusion**
+# **10. Conclusion**
 
 This repository serves as a complete, practical example of Terraform automation on AWS:
 
