@@ -135,7 +135,7 @@ provisioner "remote-exec" {
 ![Remote Exec](img/remote_exec_instance.png)
 
 **Nginx page:**
-![Nginx Running](img/nginx_welcome_browser.png)
+![Nginx Running](img/remote_exec_installed.png)
 
 ---
 
